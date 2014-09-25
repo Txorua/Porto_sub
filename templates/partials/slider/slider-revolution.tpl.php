@@ -449,7 +449,7 @@
 										data-endeasing="Power4.easeOut"
 										data-autoplay="false"
 										data-autoplayonlyfirsttime="false"
-										style="z-index: 8"><iframe src="http://cmo.cmosudamerica.com/sites/default/files/360/spin3d-3v.html" width="435" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+										style="z-index: 8"><iframe src="http://www.cmo.es/sites/default/files/360/spin3d-3v.html" width="435" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 									</div>
 
 								</li>
@@ -484,7 +484,7 @@
 										data-endeasing="Power4.easeOut"
 										data-autoplay="false"
 										data-autoplayonlyfirsttime="false"
-										style="z-index: 8"><iframe src="http://cmo.cmosudamerica.com/sites/default/files/360/spin3d-r.html" width="435" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+										style="z-index: 8"><iframe src="http://www.cmo.es/sites/default/files/360/spin3d-r.html" width="435" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 									</div>
 
 								</li>
@@ -519,7 +519,7 @@
 										data-endeasing="Power4.easeOut"
 										data-autoplay="false"
 										data-autoplayonlyfirsttime="false"
-										style="z-index: 8"><iframe src="http://cmo.cmosudamerica.com/sites/default/files/360/spin3d-d.html" width="435" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+										style="z-index: 8"><iframe src="http://www.cmo.es/sites/default/files/360/spin3d-d.html" width="435" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 									</div>
 
 								</li>
