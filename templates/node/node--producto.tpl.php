@@ -1,10 +1,11 @@
+<div vocab="http://schema.org/" typeof="Product">
 <div class="portfolio-title">
   <div class="row">
     <div class="portfolio-nav-all span1">
     <a href="?q=<?php global $language; print $language->language . '/' . drupal_get_path_alias('catálogo',$language->language); ?>" rel="tooltip" data-original-title="<?php print t('Back to list'); ?>"><i class="icon icon-th"></i></a>
     </div>
 		<div class="span10 center">
-      <h2 class="shorter"><?php print $title; ?></h2>
+      <h2 class="shorter" property="name"><?php print $title; ?></h2>
 		</div>
 		<div class="portfolio-nav span1">
     <?php print $variables['previous']; ?>
@@ -26,7 +27,7 @@
 	          <div class="thumbnail">
               <?php //$img_url = file_create_url($content['field_miniatura_producto']['#items'][0]['uri']); ?>
               <?php $img_url = file_create_url($item['uri']); ?>
-              <img alt="" class="img-responsive" src="<?php print $img_url; ?>">
+              <img alt="" class="img-responsive" src="<?php print $img_url; ?>" property="image">
 	          </div>  
           </li>
         <?php endforeach; ?>
@@ -79,6 +80,6 @@
     <?php print render($content); ?>
 	</div>
 </div>
-
+</div>
 <hr class="tall" />
 
