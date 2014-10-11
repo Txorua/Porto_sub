@@ -11,12 +11,12 @@
           $parents = taxonomy_get_parents($variables['field_catalogo'][0]['tid']);
           $catalogo = '';
           foreach ($parents as $id => $parent):
-            $catalogo .= $parent->name . ' - ';
+            $catalogo .= strtolower($parent->name) . ' - ';
           endforeach;
-          $catalogo .= $content['field_catalogo'][0]['#markup'];
+          $catalogo .= strtolower($content['field_catalogo'][0]['#markup']);
           $content['field_catalogo'][0]['#markup'] = $catalogo;
       ?>
-      <h3 class="shorter"><?php print render($content['field_catalogo']); ?></h3>
+      <b class="text-left" style="text-transform: capitalize;"><?php print render($content['field_catalogo']); ?></b>
       <?php endif; ?>
 		</div>
 		<div class="portfolio-nav span1">
