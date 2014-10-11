@@ -90,7 +90,7 @@
 				<?php endif; ?>
 				<div class="row">
 					<div class="span12">
-            <h1><?php print implode(' - ', $variables['familia']); ?> <span class="hide"><?php print drupal_get_title(); ?></span></h1>
+            <h1 style="font-size: 1.5em;"><?php print implode(' - ', $variables['familia']); ?> <span class="hide"><?php print drupal_get_title(); ?></span></h1>
 					</div>
 				</div>
 			</div>
