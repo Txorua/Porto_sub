@@ -9,6 +9,16 @@ function porto_sub_preprocess_page(&$vars, $hook) {
     $suggest = "page__node__{$vars['node']->type}";
     $vars['theme_hook_suggestions'][] = $suggest;
   }
+
+  if (isset($vars['node']) && ($vars['node']->type == 'producto')) {
+    $node = $vars['node'];
+    $vars['familia'] = '';
+    $parents = taxonomy_get_parents($node->field_catalogo['und'][0]['tid']);
+    foreach ($parents as $id => $parent) {
+      $vars['familia'][] = $parent->name;
+    }
+    $vars['familia'][] = $node->field_catalogo['und'][0]['taxonomy_term']->name;
+  }
   
   $status = drupal_get_http_header("status");  
   if($status == "404 Not Found") {      
@@ -36,8 +46,7 @@ function porto_sub_preprocess_page(&$vars, $hook) {
     ),
 
   )); 
-
- }
+}
 
 /**
  * Define some variables for use in theme templates.

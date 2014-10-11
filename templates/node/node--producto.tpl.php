@@ -16,7 +16,7 @@
           $catalogo .= strtolower($content['field_catalogo'][0]['#markup']);
           $content['field_catalogo'][0]['#markup'] = $catalogo;
       ?>
-      <b class="text-left" style="text-transform: capitalize;"><?php print render($content['field_catalogo']); ?></b>
+      <b class="hide" style="text-transform: capitalize;"><?php print render($content['field_catalogo']); ?></b>
       <?php endif; ?>
 		</div>
 		<div class="portfolio-nav span1">
