@@ -6,6 +6,18 @@
     </div>
 		<div class="span10 center">
       <h2 class="shorter" property="name"><?php print $title; ?></h2>
+      <?php
+        if ($content['field_catalogo']):
+          $parents = taxonomy_get_parents($variables['field_catalogo'][0]['tid']);
+          $catalogo = '';
+          foreach ($parents as $id => $parent):
+            $catalogo .= $parent->name . ' - ';
+          endforeach;
+          $catalogo .= $content['field_catalogo'][0]['#markup'];
+          $content['field_catalogo'][0]['#markup'] = $catalogo;
+      ?>
+      <h3 class="shorter"><?php print render($content['field_catalogo']); ?></h3>
+      <?php endif; ?>
 		</div>
 		<div class="portfolio-nav span1">
     <?php print $variables['previous']; ?>
@@ -78,6 +90,7 @@
     <?php hide($content['field_detalles_producto']); ?>
     <?php hide($content['field_catalogo']); ?>
     <?php print render($content); ?>
+
 	</div>
 </div>
 </div>
