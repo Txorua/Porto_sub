@@ -9,7 +9,7 @@
 				<span class="thumb-info-type"><?php print str_replace('-', ' ', strip_tags(render($content['field_catalogo']))); ?></span>
 			</span>
 			<span class="thumb-info-action">
-				<span title="Universal" href="#" class="thumb-info-action-icon"><i class="icon-search"></i></span>
+				<span title="Universal" href="#" class="thumb-info-action-icon"><i class="icon-zoom-in"></i></span>
 			</span>
 		</a>
 	</div>
