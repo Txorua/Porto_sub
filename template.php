@@ -62,7 +62,14 @@ function porto_sub_process_page(&$variables) {
   if ($variables['disable_site_slogan']) {
     $variables['site_slogan'] = filter_xss_admin(variable_get('site_slogan', ''));
   }
+
 }	
+
+function porto_sub_preprocess_html(&$variables) {
+  if (!drupal_is_front_page()) {
+    $variables['head_title'] = $variables['head_title_array']['title'];
+  }
+}
 
 /**
  * Add list classes for links in "Header Menu" region.
@@ -317,6 +324,5 @@ function porto_sub_item_list($variables) {
     return $output;
   }
 }
-
 
 ?>
