@@ -92,7 +92,7 @@
 										 data-y="210"
 										 data-speed="300"
 										 data-start="1500"
-                     data-easing="easeOutExpo">	<?php print t('CMO valves'); ?></div>
+                     data-easing="easeOutExpo">	<?php print t('CMO Valves'); ?></div>
 
 									<div class="tp-caption top-label lfl stl"
                      data-x="<?php print $datax3; ?>"
@@ -154,7 +154,7 @@
 										 data-y="210"
 										 data-speed="1200"
 										 data-start="1500"
-                     data-easing="easeOutExpo">	<?php print t('CMO valves'); ?></div>
+                     data-easing="easeOutExpo">	<?php print t('CMO Valves'); ?></div>
 
 									<div class="tp-caption top-label lfl stl"
                      data-x="<?php print $datax1; ?>"
@@ -270,7 +270,7 @@
 										 data-y="210"
 										 data-speed="1200"
 										 data-start="1500"
-                     data-easing="easeOutExpo">	<?php print t('CMO valves'); ?></div>
+                     data-easing="easeOutExpo">	<?php print t('CMO Valves'); ?></div>
 
 									<div class="tp-caption top-label lfl stl"
                      data-x="center"
@@ -340,7 +340,7 @@
 										 data-y="300"
 										 data-speed="1200"
 										 data-start="3000"
-                     data-easing="easeOutExpo">	CMO valves </div>
+                     data-easing="easeOutExpo">	CMO Valves </div>
                      
                      <!--<div class="tp-caption sft stb visible-lg"
 										 data-x="392"
