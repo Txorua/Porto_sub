@@ -46,7 +46,6 @@
       break;
   }
 ?>
-<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
 
 <div class="slider-container">
   <div id="revolutionSlider" class="slider">
