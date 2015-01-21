@@ -33,7 +33,7 @@
           */
          $translation = translation_node_get_translations(533);
          $path        = drupal_get_path_alias('node/' . $translation[$language->language]->nid, $language->language);
-         $name        = '<img class="logo" style="margin-top: 45px;" src="' . base_path() . path_to_theme() . '/img/video-cmo.jpg" />';
+         $name        = '<img class="logo" src="' . base_path() . path_to_theme() . '/img/video-cmo.jpg" />';
          $options     = array('attributes' => array('language' => $language->language),
                               'html'       => true);
          $link = l($name, $path, $options);
