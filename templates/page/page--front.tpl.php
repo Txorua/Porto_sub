@@ -7,7 +7,7 @@
 
 <div class="body">
   <header>
-    <div class="container-fluid">
+    <div class="container-fluid"><div class="row-fluid">
 
       <?php if (isset($page['branding'])) : ?>
 	      <?php print render($page['branding']); ?>
@@ -33,7 +33,7 @@
           */
          $translation = translation_node_get_translations(533);
          $path        = drupal_get_path_alias('node/' . $translation[$language->language]->nid, $language->language);
-         $name        = '<img class="logo" style="margin-top: 45px;" src="' . base_path() . path_to_theme() . '/img/video-cmo.jpg" />';
+         $name        = '<img class="logo" src="' . base_path() . path_to_theme() . '/img/video-cmo.jpg" />';
          $options     = array('attributes' => array('language' => $language->language),
                               'html'       => true);
          $link = l($name, $path, $options);
@@ -69,11 +69,11 @@
         <?php print render($page['header_top']); ?>
       </div>
       <?php print render($page['header_icons']); ?>
-      <nav>
+      <nav id="main-nav">
         <?php print render($page['header_menu']); ?>
       </nav>
       
-    </div>  
+    </div></div>
 	</header>
 	
 	<div role="main" class="main">

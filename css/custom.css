@@ -14,6 +14,16 @@ header .logo {
   position: relative;
 }
 
+#main-nav {
+  float: none;
+}
+@media (min-width: 768px) {
+  #main-nav {
+    float: right;
+  }
+}
+
+
 /**
  * Home Intro
  */
@@ -59,10 +69,23 @@ header nav ul.nav-main ul.dropdown-menu, header nav ul.nav-main li.dropdown.open
   background-color: #0088CC;
 }
 
+/**
+ * Search form block
+ */
+#block-search-form .form-item-search-block-form input[type="text"] {
+  width: 96px;
+}
+
+
 /* */
 
-block-block-2 ul {
-  margin: 0;
+@media (min-width: 768px) {
+  #block-block-2, #block-search-form {
+    float: right;
+  }
+}
+#block-block-2 ul, #block-search-form {
+  margin: 0.625em;
 }
 
 .nav-pills .dropdown-menu {
@@ -379,15 +402,23 @@ footer .footer-copyright p {
 /**
  * Vídeo corporativo
  */
- #video-corporativo {
+#video-corporativo {
    width: 450px;
    height: 250px;
    margin: 0 auto;
    display: block;
- }
- @media (min-width: 768px) {
- 	#video-corporativo {
-     width: 650px;
-     height: 366px;
- }
- }
+}
+@media (min-width: 768px) {
+  #video-corporativo {
+    width: 650px;
+    height: 366px;
+  }
+}
+header a img.logo {
+  margin-top: 15px;
+}
+@media (min-width: 768px) {
+  header a img.logo {
+    margin-top: 45px;
+  }
+}
