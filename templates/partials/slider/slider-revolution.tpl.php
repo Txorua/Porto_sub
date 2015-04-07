@@ -52,7 +52,7 @@
   	<ul>
   		<li data-transition="fade" data-slotamount="13" data-masterspeed="50" >
 
-        <img src="<?php print path_to_theme(); ?>/templates/partials/slider/img/slides/custom-header-bg-f.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+        <img src="<?php print path_to_theme(); ?>/templates/partials/slider/img/slides/custom-header-bg-f-agua.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
 									<!-- <div class="tp-caption sft stb visible-lg"
 										 data-x="35"
@@ -595,7 +595,46 @@
 
 								</li>
 								
-								
+									  <li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
+
+									<img src="<?php print path_to_theme(); ?>/templates/partials/slider/img/slides/custom-header-bg-b.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+									  
+
+									<div class="tp-caption customin customout"
+										data-x="center" data-hoffset="0"
+										data-y="center" data-voffset="0"
+										data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+										data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+										data-speed="800"
+										data-start="700"
+										data-easing="Power4.easeOut"
+										data-endspeed="500"
+										data-endeasing="Power4.easeIn"
+										style="z-index: 3"><img src="<?php print path_to_theme(); ?>/templates/partials/slider/img/slides/slide-concept-draft.png" alt="">
+									</div>
+
+									<div class="tp-caption customin customout"
+										data-x="center" data-hoffset="0"
+										data-y="center" data-voffset="-6"
+										data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+										data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+										data-speed="600"
+										data-start="100"
+										data-easing="Power4.easeOut"
+										data-endspeed="500"
+										data-endeasing="Power4.easeOut"
+										data-autoplay="false"
+										data-autoplayonlyfirsttime="false"
+										style="z-index: 8"><video loop muted="muted" style="width:100%" poster="cmovideo.jpg"  autoplay="autoplay">
+                                        <source src="http://www.cmo.es/sites/all/themes/Porto_sub/templates/partials/slider/img/slides/cmo-slide.mp4" >                
+                   
+                                         </video>
+									</div>
+
+								</li>
+                                 
+                               
+
 					                           
                                 
 								
