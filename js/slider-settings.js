@@ -4,7 +4,7 @@ tpj.noConflict();
        tpj('.slider').revolution(
           {
               delay:9000,
-              startheight:500,
+              startheight:450,
               startwidth:960,
     
               hideThumbs:300,

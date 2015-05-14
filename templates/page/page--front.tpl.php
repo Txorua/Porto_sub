@@ -77,7 +77,7 @@
 	</header>
 	
 	<div role="main" class="main">
-    <?php print theme_render_template(path_to_theme() . '/templates/partials/slider/slider-revolution.tpl.php', $variables = array()); ?>
+    <?php //print theme_render_template(path_to_theme() . '/templates/partials/slider/slider-revolution.tpl.php', $variables = array()); ?>
     <?php //print theme_render_template(path_to_theme() . '/templates/partials/home-intro.tpl.php', $variables = array()); ?>
 
 	  <?php if ( ($breadcrumb) AND (!drupal_is_front_page()) ): ?>
@@ -100,6 +100,7 @@
 	  <?php endif; ?>
 	  
     <?php print render($page['before_content']); ?>
+       
 	  <div id="content" class="content full">
 	    <div class="container">
 	      <div class="row">
