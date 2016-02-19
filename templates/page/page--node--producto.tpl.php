@@ -14,7 +14,7 @@
 	    <?php endif; ?>
     
       <?php if ($logo): ?>
-        <h1 class="logo">
+        <p class="logo">
 		      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
             <?php
               global $language;
@@ -24,7 +24,7 @@
             ?>
 		        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
 		      </a>
-        </h1>
+        </p>
 	    <?php endif; ?>
 
       <?php
