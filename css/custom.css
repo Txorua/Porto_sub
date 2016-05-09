@@ -318,6 +318,10 @@ a.thumb-info span.thumb-info-action {
   background-color: rgba(244, 245, 255, 0.5);
 }
 
+a.thumb-info span.thumb-info-title {
+  bottom: 10px;
+}
+
 @media (min-width: 768px) {
   #block-locale-language .btn-group {
     margin-top: 0;
