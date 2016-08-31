@@ -37,7 +37,7 @@
          $options     = array('attributes' => array('language' => $language->language),
                               'html'       => true);
          $link = l($name, $path, $options);
-         /*print $link;*/
+         print $link;
       ?>
 	    
 	    <?php if ($site_name || $site_slogan): ?>
